@@ -1,0 +1,15 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #222, #444);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero span {
+  color: #007bff;
+}

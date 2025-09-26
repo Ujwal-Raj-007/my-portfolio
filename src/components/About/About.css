@@ -1,0 +1,8 @@
+.about {
+  background: #f5f5f5;
+  text-align: center;
+}
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+}
