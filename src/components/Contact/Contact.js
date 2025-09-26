@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-
+import logo from "./assets/images/ig.jpeg"
 const Contact = () => {
   return (
     <section id="contact" className="contact">
@@ -9,7 +9,7 @@ const Contact = () => {
       <p>LinkedIn: <a href="#">www.linkedin.com/in/ujwalraj</a></p>
       <p>GitHub: <a href="#">https://github.com/Ujwal-Raj-007</a></p>
       <a href="#"><button>https://www.instagram.com/___.raj_._</button></a>
-      <a><img src=".src/assets/images/ig.jpeg"/></a>
+      <a><img src={logo} alt="lof"/></a>
       <button>Go</button>
     </section>
   );
