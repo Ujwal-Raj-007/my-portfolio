@@ -9,7 +9,7 @@ const Contact = () => {
       <p>LinkedIn: <a href="#">www.linkedin.com/in/ujwalraj</a></p>
       <p>GitHub: <a href="#">https://github.com/Ujwal-Raj-007</a></p>
       <a href="#"><button>https://www.instagram.com/___.raj_._</button></a>
-      <a><img src="./images/ig.jpeg"/></a>
+      <a><img src="./ig.jpeg"/></a>
       <button>Go</button>
     </section>
   );
