@@ -8,7 +8,8 @@ const Contact = () => {
       <p>Email: <a href="mailto:youremail@example.com">ujwalrajkv11@gmail.com</a></p>
       <p>LinkedIn: <a href="#">www.linkedin.com/in/ujwalraj</a></p>
       <p>GitHub: <a href="#">https://github.com/Ujwal-Raj-007</a></p>
-      <button>Instagram: <a href="#">https://www.instagram.com/___.raj_._</a></button>
+      <a href="#"><button>https://www.instagram.com/___.raj_._</button></a>
+      <button>Go</button>
     </section>
   );
 };
