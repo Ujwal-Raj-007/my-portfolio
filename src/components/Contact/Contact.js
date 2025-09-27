@@ -1,16 +1,15 @@
 import React from "react";
 import "./Contact.css";
-import logo from "./assets/images/ig.jpeg"
+
 const Contact = () => {
+  const imageUrl="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png"
   return (
     <section id="contact" className="contact">
       <h2>Contact Me</h2>
       <p>Email: <a href="mailto:youremail@example.com">ujwalrajkv11@gmail.com</a></p>
       <p>LinkedIn: <a href="#">www.linkedin.com/in/ujwalraj</a></p>
       <p>GitHub: <a href="#">https://github.com/Ujwal-Raj-007</a></p>
-      <a href="#"><button>https://www.instagram.com/___.raj_._</button></a>
-      <a><img src={logo} alt="lof"/></a>
-      <button>Go</button>
+      <a href="https://www.instagram.com/___.raj_._"><img className="ig" src={imageUrl} alt="lof"/></a>      
     </section>
   );
 };
